@@ -1,121 +1,148 @@
-# Python Data Analysis using NumPy & Pandas
+# NumPy & Pandas – Python Data Analysis
 
-**A Practical Data Analytics Assignment | Python | NumPy | Pandas | Jupyter Notebook**
+<p align="center">
+  <strong>Practical Data Analytics | Python | NumPy | Pandas</strong>
+</p>
+
+<p align="center">
+  A hands-on Python project focused on numerical computing, data manipulation, and data analysis using NumPy and Pandas.
+</p>
 
 ---
 
-## 📌 Project Overview
+## 📌 About the Project
 
-This project demonstrates fundamental data analysis techniques using Python's NumPy and Pandas libraries. It focuses on numerical computations, array manipulation, data exploration, and data manipulation through practical exercises.
+This project focuses on developing practical data analysis skills using **NumPy and Pandas**, two essential Python libraries widely used in Data Analytics and Data Science.
 
-The assignment uses temperature datasets to explore NumPy operations and structured transaction data to practice Pandas Series and DataFrame functionalities.
+It covers numerical operations using temperature datasets, Series manipulation, and structured transaction data analysis using Pandas DataFrames.
 
-## 🎯 Project Objectives
+The project demonstrates fundamental techniques for handling, exploring, filtering, transforming, and analyzing data through practical Python exercises.
+
+## 🎯 Objectives
 
 - Understand NumPy arrays and their properties.
-- Perform numerical computations and mathematical operations.
-- Apply indexing and slicing techniques.
+- Perform numerical computations and statistical operations.
+- Apply array indexing and slicing techniques.
 - Create and manipulate Pandas Series.
-- Explore and analyze structured datasets using DataFrames.
-- Perform data filtering, grouping, and aggregation.
-- Modify and manipulate datasets using Pandas.
+- Explore and analyze structured datasets.
+- Perform conditional filtering and data aggregation.
+- Modify and transform data using Pandas.
 
 ## 🛠️ Technologies & Tools
 
-| Technology | Purpose |
+| Technology | Application |
 |---|---|
-| Python | Programming language |
-| NumPy | Numerical computing and array operations |
+| Python | Programming and data analysis |
+| NumPy | Numerical computing and array manipulation |
 | Pandas | Data manipulation and analysis |
-| Jupyter Notebook | Interactive coding and execution |
+| Jupyter Notebook | Interactive development environment |
 
-## 📚 Project Tasks
+## 📊 Project Modules
 
-### 1. NumPy – Array Operations
+### 01. NumPy – Array Operations
 
-- Creation of 1D and 2D NumPy arrays.
-- Inspection of array shape, data type, and size.
-- Celsius to Fahrenheit temperature conversion.
-- Calculation of maximum, minimum, and mean temperatures.
-- Array indexing and slicing.
-- Extraction of weekly and weekend temperature data.
+Working with one-dimensional and two-dimensional arrays using temperature data.
 
-### 2. Pandas – Series Operations
+**Topics Covered:**
+- 1D and 2D Array Creation
+- Array Shape, Data Type and Size
+- Celsius to Fahrenheit Conversion
+- Maximum, Minimum and Mean Calculations
+- Array Indexing and Slicing
+- Weekly and Weekend Temperature Analysis
 
-- Creation of Series with custom indices.
-- Integer-based indexing.
-- Label-based indexing using `loc`.
-- Position-based indexing using `iloc`.
-- Boolean masking and filtering.
-- Updating and removing Series elements.
-- CGPA calculation using Series operations.
+### 02. Pandas – Series Operations
 
-### 3. Pandas – DataFrame Operations
+Creating and manipulating Pandas Series using student marks data.
 
-- Creating DataFrames using structured transaction data.
-- Exploring datasets using `head()`, `tail()`, `shape`, and `info()`.
-- Selecting specific columns.
-- Filtering records using multiple conditions.
-- Analyzing categorical data using `value_counts()` and `unique()`.
-- Grouping data and calculating average transaction amounts.
-- Updating records, adding columns, and deleting rows and columns.
+**Topics Covered:**
+- Series Creation with Custom Indices
+- Integer Position-Based Indexing
+- Label-Based Indexing (`loc`)
+- Position-Based Indexing (`iloc`)
+- Boolean Masking and Filtering
+- Updating and Removing Series Elements
+- CGPA Calculation
 
-## 📂 Project Structure
+### 03. Pandas – DataFrame Analysis
+
+Exploring and manipulating transaction records using a structured DataFrame.
+
+**Topics Covered:**
+- DataFrame Creation
+- Data Exploration (`head`, `tail`, `shape`, `info`)
+- Column Selection and Indexing
+- Conditional Data Filtering
+- Value Counts and Unique Values
+- GroupBy and Mean Aggregation
+- Updating Records and Adding Columns
+- Removing Rows and Columns
+
+## 📁 Repository Structure
 
 ```text
-Python-DA-Assignment-1/
+NumPy-Pandas-Data-Analysis/
 │
-├── Python-DA-Assignment-1.ipynb
+├── NumPy&Pandas.ipynb
 │
 └── README.md
 ```
 
-## 🚀 How to Run the Project
+## ⚙️ Installation & Setup
 
-1. Clone this repository:
+**1. Clone the repository**
 
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/Python-DA-Assignment-1.git
-   ```
+```bash
+git clone https://github.com/YOUR-USERNAME/NumPy-Pandas-Data-Analysis.git
+```
 
-2. Navigate to the project directory:
+**2. Navigate to the project folder**
 
-   ```bash
-   cd Python-DA-Assignment-1
-   ```
+```bash
+cd NumPy-Pandas-Data-Analysis
+```
 
-3. Install the required libraries:
+**3. Install the required libraries**
 
-   ```bash
-   pip install numpy pandas jupyter
-   ```
+```bash
+pip install numpy pandas jupyter
+```
 
-4. Launch Jupyter Notebook:
+**4. Launch Jupyter Notebook**
 
-   ```bash
-   jupyter notebook
-   ```
+```bash
+jupyter notebook
+```
 
-5. Open `Python-DA-Assignment-1.ipynb` and execute the cells sequentially.
+**5. Open the notebook**
 
-## 💡 Key Learning Outcomes
+Open `NumPy&Pandas.ipynb` and execute the cells sequentially to explore the analysis.
 
-Through this assignment, I gained practical experience in:
+## 📈 Key Learning Outcomes
 
-- Working with numerical arrays using NumPy.
-- Performing data manipulation and transformation using Pandas.
-- Exploring and filtering structured datasets.
-- Applying statistical and aggregation functions.
-- Developing foundational Python skills for Data Analytics.
+Through this project, I developed practical knowledge of:
+
+- Numerical computing and array manipulation with NumPy.
+- Data structures and data manipulation using Pandas.
+- Data exploration, filtering, and transformation.
+- Statistical calculations and data aggregation.
+- Working with structured datasets in Python.
+- Building a foundation for advanced Data Analytics workflows.
 
 ## 👨‍💻 Author
 
 **Roshan P**
 
-Aspiring Data Analyst | Data Analytics Learner
+Aspiring Data Analyst | Data Analytics Trainee
 
-**Areas of Interest:** Data Analytics, Business Intelligence, Python, and Machine Learning.
+**Interests:** Data Analytics | Business Intelligence | Python | Machine Learning
 
 ---
 
-⭐ If you find this project useful, feel free to explore the repository!
+<p align="center">
+  <strong>Learning • Practicing • Building with Data</strong>
+</p>
+
+<p align="center">
+  ⭐ Thank you for visiting this repository!
+</p>
